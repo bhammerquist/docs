@@ -6,7 +6,9 @@ navigation:
   show: true
 ---
 
-Enabling the Click Tracking App causes all the links in your emails to be overwritten and pointed to our servers so we can track clicks. If you would like a custom name to appear in the links you can create a CNAME that points to sendgrid.net and fill out the [Whitelabel](https://sendgrid.com/whitelabel/) settings (only available in Silver or higher accounts) in your account with your new name.
+{% info %} This app is available to customers with [Silver accounts and higher](https://sendgrid.com/transactional-email/pricing). {% endinfo %}
+
+Enabling the Click Tracking App causes all the links in your emails to be overwritten and pointed to our servers so we can track clicks. If you would like a custom name to appear in the links you can create a CNAME that points to sendgrid.net and fill out the [Whitelabel](https://sendgrid.com/whitelabel/) settings (only available in Silver accounts and higher) in your account with your new name.
 
 ![Click Tracking App Image]({{root_url}}/images/click_tracking.png "Click Tracking")
 
